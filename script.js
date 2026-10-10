@@ -36,6 +36,15 @@ const GAMES = [
     tags: ["1-4 pemain", "Strategi"],
     url: "https://kelanarasa.github.io/alfajri-letsexplore/",     // contoh: "https://nama-situs-anda.netlify.app/"
     image: "assets/letsexplore.png"
+  },
+  {
+    title: "Memory Chalange",
+    desc: "Uji daya ingatmu, susun gambar sesuai dengan pola gambar sebelumnya.",
+    emoji: "🧭",
+    color: "#f43bb9",
+    tags: ["1 pemain", "Ingatan"],
+    url: "https://kelanarasa.github.io/memory-chalange/",     // contoh: "https://nama-situs-anda.netlify.app/"
+    image: "assets/memorychalange.png"
   }
 ];
 
