@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Al-Fajri Gamehouse</title>
+<meta name="description" content="Kumpulan game belajar yang seru dimainkan di HP maupun laptop.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%85%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+
+<!-- Layar sambutan: klik pertama ini yang mengizinkan browser memutar musik -->
+<div id="welcome" class="welcome" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+  <div class="w-sun" aria-hidden="true"></div>
+  <div class="w-brand">
+    <svg class="logoFallback" viewBox="0 0 64 64" role="img" aria-label="Logo Al-Fajri Gamehouse">
+      <circle cx="32" cy="32" r="30" fill="#0c3b2b" stroke="#ffb547" stroke-width="3"/>
+      <path d="M8 44h48a24 24 0 0 0-48 0z" fill="#ffb547"/>
+      <path d="M40 14a12 12 0 1 0 8 21 10 10 0 1 1-8-21z" fill="#fff4e0"/>
+    </svg>
+  </div>
+  <div class="w-center">
+    <h2 id="welcomeTitle">Sudah siapkah bermain sambil belajar?</h2>
+  </div>
+  <div class="w-bottom">
+    <button id="startBtn" class="start" type="button">Mulai</button>
+    <p class="w-note">Nyalakan suara perangkatmu ya.</p>
+  </div>
+</div>
+
+<!-- Tombol musik (muncul setelah Mulai) -->
+<button id="musicBtn" class="music" type="button" aria-pressed="false" aria-label="Matikan musik" hidden>
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/>
+    <g class="waves" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M16.5 8.5a5 5 0 0 1 0 7"/><path d="M19 6a8.5 8.5 0 0 1 0 12"/>
+    </g>
+    <g class="slash" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M16.5 9.5l5 5"/><path d="M21.5 9.5l-5 5"/>
+    </g>
+  </svg>
+</button>
+
+<header class="top">
+  <a class="logo" href="./" aria-label="Al-Fajri Gamehouse, ke halaman awal">
+    <!-- Logo sementara. Letakkan logo Anda di assets/logo.png dan logo ini otomatis diganti. -->
+    <svg class="logoFallback" viewBox="0 0 64 64" role="img" aria-label="Logo Al-Fajri Gamehouse">
+      <circle cx="32" cy="32" r="30" fill="#0c3b2b" stroke="#ffb547" stroke-width="3"/>
+      <path d="M8 44h48a24 24 0 0 0-48 0z" fill="#ffb547"/>
+      <path d="M40 14a12 12 0 1 0 8 21 10 10 0 1 1-8-21z" fill="#fff4e0"/>
+    </svg>
+  </a>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Al-Fajri Gamehouse</h1>
+    <p>Game belajar yang seru, bisa dimainkan di HP maupun laptop. Pilih satu, lalu mulai main.</p>
+    <a class="cta" href="#games">Pilih game</a>
+  </div>
+  <div class="sun" aria-hidden="true"></div>
+  <div class="clouds" aria-hidden="true">
+    <span class="cloud c1"><svg viewBox="0 0 200 80"><use href="#cloud"/></svg></span>
+    <span class="cloud c2"><svg viewBox="0 0 200 80"><use href="#cloud"/></svg></span>
+    <span class="cloud c3"><svg viewBox="0 0 200 80"><use href="#cloud"/></svg></span>
+  </div>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="bird" viewBox="0 0 60 24"><path d="M2 14 C12 4 22 6 30 14 C38 6 48 4 58 14 C48 10 40 12 30 20 C20 12 12 10 2 14 Z"/></symbol>
+    <linearGradient id="cloudFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3d9"/><stop offset="1" stop-color="#ffc48a"/></linearGradient>
+    <symbol id="cloud" viewBox="0 0 200 80"><g fill="url(#cloudFill)"><circle cx="52" cy="48" r="22"/><circle cx="92" cy="36" r="30"/><circle cx="136" cy="44" r="24"/><circle cx="164" cy="54" r="16"/><rect x="36" y="52" width="140" height="20" rx="10"/></g></symbol>
+    <symbol id="camel" viewBox="0 0 140 100"><g>
+      <g transform="translate(0 -8)">
+        <ellipse cx="62" cy="52" rx="36" ry="12"/>
+        <path d="M42 46C46 22 70 18 80 46Z"/>
+        <path d="M78 42C90 42 94 30 96 14L105 12C106 30 104 44 98 56L80 56Z"/>
+        <ellipse cx="111" cy="12" rx="9" ry="4.6" transform="rotate(14 111 12)"/>
+        <ellipse cx="120" cy="16" rx="5.5" ry="3.8" transform="rotate(20 120 16)"/>
+        <path d="M101 9L102 3L106 9Z"/>
+        <path d="M32 46C25 50 22 62 24 76L28 76C28 63 29 53 35 50Z"/>
+      </g>
+      <path d="M32 54L43 54L39 76L42 96L35 96L31 78Z"/>
+      <path d="M46 56L56 56L58 76L64 96L57 96L50 78Z"/>
+      <path d="M78 56L89 56L85 76L82 96L75 96L76 78Z"/>
+      <path d="M90 54L100 54L104 76L112 94L105 96L96 78Z"/>
+    </g></symbol>
+  </svg>
+  <div class="flock" aria-hidden="true">
+    <span class="bird b1"><svg viewBox="0 0 60 24"><use href="#bird"/></svg></span>
+    <span class="bird b2"><svg viewBox="0 0 60 24"><use href="#bird"/></svg></span>
+    <span class="bird b3"><svg viewBox="0 0 60 24"><use href="#bird"/></svg></span>
+    <span class="bird b4"><svg viewBox="0 0 60 24"><use href="#bird"/></svg></span>
+  </div>
+  <!-- Rombongan unta: siluet di punggung bukit, di depan matahari -->
+  <svg class="caravan" viewBox="0 0 500 100" aria-hidden="true">
+    <use href="#camel" x="0" y="0" width="140" height="100"/>
+    <use href="#camel" x="128" y="10" width="126" height="90"/>
+    <use href="#camel" x="248" y="5" width="133" height="95"/>
+    <use href="#camel" x="372" y="5" width="119" height="85"/>
+  </svg>
+  <svg class="hills" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,92 C180,40 340,122 560,82 C760,46 900,112 1120,72 C1280,44 1380,72 1440,62 L1440,160 L0,160 Z"/>
+  </svg>
+</section>
+
+<main id="games" class="games">
+  <h2>Pilih game</h2>
+  <div id="grid" class="grid"></div>
+</main>
+
+<footer class="foot">
+  <p>&copy; <span id="year">2026</span> Al-Fajri Gamehouse</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
