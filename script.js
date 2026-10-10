@@ -25,7 +25,7 @@ const GAMES = [
     emoji: "♻️",
     color: "#2e9e4f",
     tags: ["1–2 pemain", "Lingkungan"],
-    url: "https://alfajrisortirsampah.netlify.app",     // contoh: "https://namaanda.github.io/sortir-sampah/"
+    url: "https://kelanarasa.github.io/sortir-sampah/",     // contoh: "https://namaanda.github.io/sortir-sampah/"
     image: "assets/sortirsampah.png"
   },
   {
