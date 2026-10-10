@@ -8,7 +8,7 @@
    - color : warna aksen kartu.
    ===================================================== */
 
-const OPEN_IN_NEW_TAB = true;   // false = game dibuka di tab yang sama
+const OPEN_IN_NEW_TAB = false;  // false = game dibuka di tab yang sama (tombol Back kembali ke Gamehouse)
 
 /* Musik latar:
    - Jika ada file di BGM_FILE, file itu yang diputar (disarankan, pakai musik
