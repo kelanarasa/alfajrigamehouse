@@ -45,6 +45,15 @@ const GAMES = [
     tags: ["1 pemain", "Ingatan"],
     url: "https://kelanarasa.github.io/memory-chalange/",     // contoh: "https://nama-situs-anda.netlify.app/"
     image: "assets/memorychalange.png"
+  },
+  {
+    title: "Gerakan Tubuhmu",
+    desc: "Game Untuk Melatih Koordinasi Gerakan.",
+    emoji: "🧭",
+    color: "#60f43b",
+    tags: ["1 pemain", "Gerakan", "Motion-Controled"],
+    url: "https://kelanarasa.github.io/gerakan-tubuhmu/",     // contoh: "https://nama-situs-anda.netlify.app/"
+    image: "assets/gerakantubuhmu.png"
   }
 ];
 
