@@ -47,6 +47,15 @@ const GAMES = [
     image: "assets/memorychalange.png"
   },
   {
+    title: "Who Want To Be A Brilliant",
+    desc: "Lihat sejauh mana kamu bisa menjawab pertanyaannya.",
+    emoji: "🧭",
+    color: "#2503e3",
+    tags: ["1 pemain", "Kuis"],
+    url: "https://kelanarasa.github.io/brilliant/",     // contoh: "https://nama-situs-anda.netlify.app/"
+    image: "assets/brilliant.png"
+  },
+  {
     title: "Gerakan Tubuhmu",
     desc: "Game Untuk Melatih Koordinasi Gerakan.",
     emoji: "🧭",
@@ -54,6 +63,15 @@ const GAMES = [
     tags: ["1 pemain", "Gerakan", "Motion-Controled"],
     url: "https://kelanarasa.github.io/gerakan-tubuhmu/",     // contoh: "https://nama-situs-anda.netlify.app/"
     image: "assets/gerakantubuhmu.png"
+  },
+  {
+    title: "Tennis Fun",
+    desc: "Game Untuk Melatih Permainan Tennismu.",
+    emoji: "🧭",
+    color: "#eded03",
+    tags: ["1-2 pemain", "Olahraga", "Motion-Controled"],
+    url: "https://kelanarasa.github.io/tennisfun/",     // contoh: "https://nama-situs-anda.netlify.app/"
+    image: "assets/tennisfun.png"
   }
 ];
 
