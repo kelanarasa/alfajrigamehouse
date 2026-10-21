@@ -65,6 +65,15 @@ const GAMES = [
     image: "assets/gerakantubuhmu.png"
   },
   {
+    title: "Kijang & Kelinci",
+    desc: "Game Bermain Bersama, Bergerak Bersama, Asik Bersama.",
+    emoji: "🧭",
+    color: "#b048ae",
+    tags: ["Multi pemain", "Olahraga", "Motion-Controled"],
+    url: "https://kelanarasa.github.io/kijangkelinci/",     // contoh: "https://nama-situs-anda.netlify.app/"
+    image: "assets/kijangkelinci.png"
+  },
+  {
     title: "Tennis Fun",
     desc: "Game Untuk Melatih Permainan Tennismu.",
     emoji: "🧭",
