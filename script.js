@@ -83,6 +83,15 @@ const GAMES = [
     image: "assets/mugunghwa.png"
   },
   {
+    title: "Math Mingle",
+    desc: "Game Bermain Bersama, Cari Angkanya dan Cari Temanmu.",
+    emoji: "🧭",
+    color: "#2752d3",
+    tags: ["Multi pemain", "Olahraga", "Hitungan"],
+    url: "https://kelanarasa.github.io/mathmingle/",     // contoh: "https://nama-situs-anda.netlify.app/"
+    image: "assets/mingle.png"
+  },
+  {
     title: "Tennis Fun",
     desc: "Game Untuk Melatih Permainan Tennismu.",
     emoji: "🧭",
