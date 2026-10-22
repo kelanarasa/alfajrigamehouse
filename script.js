@@ -69,9 +69,18 @@ const GAMES = [
     desc: "Game Bermain Bersama, Bergerak Bersama, Asik Bersama.",
     emoji: "🧭",
     color: "#b048ae",
-    tags: ["Multi pemain", "Olahraga", "Motion-Controled"],
+    tags: ["Multi pemain", "Olahraga", "Motion-Cam"],
     url: "https://kelanarasa.github.io/kijangkelinci/",     // contoh: "https://nama-situs-anda.netlify.app/"
     image: "assets/kijangkelinci.png"
+  },
+  {
+    title: "Lampu Hijau Lampu Merah",
+    desc: "Game Bermain Bersama dan Bergerak Bersama, Awas Lampu Merah!.",
+    emoji: "🧭",
+    color: "#fff41c",
+    tags: ["Multi pemain", "Olahraga", "Motion-Cam"],
+    url: "https://kelanarasa.github.io/lampuhijau-lampumerah/",     // contoh: "https://nama-situs-anda.netlify.app/"
+    image: "assets/mugunghwa.png"
   },
   {
     title: "Tennis Fun",
